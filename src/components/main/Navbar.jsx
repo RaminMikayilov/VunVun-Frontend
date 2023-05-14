@@ -78,7 +78,7 @@ function Navbar() {
           {nav_routes_ui}
         </div>
         <div>
-          <Link className='text-[14px] bg-btn-orange text-white rounded-[4px] py-3 px-5 768:hidden'>Sahibkar ol</Link>
+          <Link to={'/elanver'} className='text-[14px] bg-btn-orange text-white rounded-[4px] py-3 px-5 768:hidden'>Sahibkar ol</Link>
           <Hamburger ham={ham} setHam={setHam} />
         </div>
       </div>

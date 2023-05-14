@@ -1,0 +1,9 @@
+[
+    {"value": "Benzin", "label": "Benzin"},
+    {"value": "Dizel", "label": "Dizel"},
+    {"value": "Qaz", "label": "Qaz"},
+    {"value": "Elektro", "label": "Elektro"},
+    {"value": "Hibrid", "label": "Hibrid"},
+    {"value": "Plug-in Hibrid", "label": "Plug-in Hibrid"}
+  ]
+  

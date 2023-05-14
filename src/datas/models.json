@@ -1,0 +1,75 @@
+[
+    {
+      "marka": "Toyota",
+      "models": [
+        {"value": "Camry", "label": "Camry"},
+        {"value": "Corolla", "label": "Corolla"},
+        {"value": "Highlander", "label": "Highlander"},
+        {"value": "RAV4", "label": "RAV4"},
+        {"value": "Sienna", "label": "Sienna"},
+        {"value": "Tacoma", "label": "Tacoma"},
+        {"value": "Tundra", "label": "Tundra"}
+      ]
+    },
+    {
+      "marka": "Ford",
+      "models": [
+        {"value": "Explorer", "label": "Explorer"},
+        {"value": "F-150", "label": "F-150"},
+        {"value": "Mustang", "label": "Mustang"},
+        {"value": "Ranger", "label": "Ranger"},
+        {"value": "Escape", "label": "Escape"},
+        {"value": "Edge", "label": "Edge"}
+      ]
+    },
+    {
+      "marka": "Chevrolet",
+      "models": [
+        {"value": "Silverado", "label": "Silverado"},
+        {"value": "Equinox", "label": "Equinox"},
+        {"value": "Suburban", "label": "Suburban"},
+        {"value": "Tahoe", "label": "Tahoe"},
+        {"value": "Traverse", "label": "Traverse"}
+      ]
+    },
+    {
+      "marka": "Honda",
+      "models": [
+        {"value": "Accord", "label": "Accord"},
+        {"value": "Civic", "label": "Civic"},
+        {"value": "CR-V", "label": "CR-V"},
+        {"value": "Odyssey", "label": "Odyssey"},
+        {"value": "Pilot", "label": "Pilot"}
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "models": [
+        {"value": "Altima", "label": "Altima"},
+        {"value": "Maxima", "label": "Maxima"},
+        {"value": "Pathfinder", "label": "Pathfinder"},
+        {"value": "Rogue", "label": "Rogue"},
+        {"value": "Sentra", "label": "Sentra"}
+      ]
+    },
+    {
+      "marka": "Jeep",
+      "models": [
+        {"value": "Cherokee", "label": "Cherokee"},
+        {"value": "Grand Cherokee", "label": "Grand Cherokee"},
+        {"value": "Wrangler", "label": "Wrangler"},
+        {"value": "Compass", "label": "Compass"}
+      ]
+    },
+    {
+      "marka": "BMW",
+      "models": [
+        {"value": "3 Series", "label": "3 Series"},
+        {"value": "5 Series", "label": "5 Series"},
+        {"value": "X3", "label": "X3"},
+        {"value": "X5", "label": "X5"},
+        {"value": "X7", "label": "X7"}
+      ]
+    }
+]
+  
