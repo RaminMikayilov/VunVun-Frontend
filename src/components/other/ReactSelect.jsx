@@ -9,7 +9,7 @@ import Select from "react-select"
 function ReactSelect({type , options , id , changeFunc}) {
     if(type == "multi"){
       return (
-        <Select onChange={changeFunc} id={id} options={options} isMulti={true}  theme={(theme) => ({
+        <Select onChange={changeFunc}   id={id} options={options} isMulti={true}  theme={(theme) => ({
           ...theme,
           borderRadius: 0,
           colors: {
