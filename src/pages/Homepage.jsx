@@ -1,11 +1,12 @@
-
+// components 
+import Cars from "../components/Homepage/Cars/Cars";
 
 function Homepage() {
   return (
     <div>
-      HomePage
+      <Cars />
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;
