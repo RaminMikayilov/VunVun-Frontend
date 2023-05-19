@@ -39,7 +39,7 @@ function Services() {
     ]
     const servicesCardsUI = servicesCards.map((ui,id) => {
         return (
-            <div className='w-[30%] 768:w-[45%] 450:!w-[80%] flex flex-col gap-y-6 border-border-color border-[1px] rounded-[5px] py-6 px-8 hover:border-btn-orange'>
+            <div key={id} className='w-[30%] 768:w-[45%] 450:!w-[80%] flex flex-col gap-y-6 border-border-color border-[1px] rounded-[5px] py-6 px-8 hover:border-btn-orange'>
                 <div>
                     <img src={ui.img} />
                 </div>

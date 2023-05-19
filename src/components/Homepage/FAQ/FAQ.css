@@ -1,0 +1,13 @@
+.row-content-text{
+    @apply !text-[14px] !leading-[24px] font-[500] !text-text-black
+}
+.row-title-text{
+    @apply !text-[18px] !leading-[24px] font-[500] !text-text-black
+}
+.faq-body{
+    @apply !w-[60%] 450:!w-[90%]
+}
+
+.faq-row-wrapper{
+    @apply flex justify-center 
+}
