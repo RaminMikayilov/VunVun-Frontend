@@ -12,7 +12,8 @@ export default {
         "text-black" : "#272D37" ,
         "p-gray" : "#5F6D7E" , 
         "gray25" : "#919BA7" ,
-        "p-blue" : "#14447D"
+        "p-blue" : "#14447D" ,
+        "border-color": '#EAEBF0'
       } ,
       screens : {
         "768" : {'max' : "768px"} ,
