@@ -1,5 +1,6 @@
 import Hero from "../components/Homepage/HERO/Hero";
 import Services from "../components/Homepage/SERVICES/Services";
+import Destination from "../components/Homepage/Destination/Destination";
 import HBeOwner from "../components/Homepage/HBEOWNER/HBeOwner";
 import Cars from "../components/Homepage/Cars/Cars";
 import Works from "../components/Homepage/Works/Works";
@@ -11,6 +12,7 @@ function Homepage() {
     <div>
       <Hero />
       <Services />
+      <Destination />
       <Cars />
       <HBeOwner />
       <Works />
