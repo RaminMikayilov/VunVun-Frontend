@@ -4,6 +4,7 @@ import Error from "./pages/Error"
 import Navbar from './components/main/Navbar';
 import Footer from './components/main/Footer';
 import BeOwner from './pages/BeOwner'
+import CarDetails from "./components/main/CarDetails";
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />}/>
           <Route path="/elanver" element={<BeOwner />}/>
+          <Route path="/cars/:carId" element={<CarDetails />} /> 
           <Route path="*" element={<Error />}/>
         </Routes>
         <Footer />
