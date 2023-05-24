@@ -25,7 +25,7 @@ const CarCard = ({id, name, img, price }) => {
       {/* buttons */}
       <div className="flex flex-col md:flex-row justify-evenly gap-3">
         <Link to={`/avtomobiller/${id}`}>
-          <button className="px-3 py-2 text-btn-orange font-bold hover:bg-btn-orange hover:text-white duration-300 border-2 border-btn-orange rounded-md">
+          <button className="px-3 py-2 text-btn-orange font-bold hover:bg-btn-orange hover:text-white duration-300 border-2 border-btn-orange rounded-md w-full">
             Daha ətraflı
           </button>
         </Link>

@@ -3,7 +3,7 @@ import "./carousel.css";
 import { useRef } from "react";
 
 // icons
-import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 
 const Carousel = ({ children }) => {
   const scrollRef = useRef(null);
@@ -25,9 +25,9 @@ const Carousel = ({ children }) => {
     <div className="flex items-center relative">
       <span
         onClick={scrollLeft}
-        className="border-4 p-2 bg-opacity-70 bg-dark-blue text-white rounded-full cursor-pointer absolute left-0 z-[10] block"
+        className="border-2 border-btn-orange text-btn-orange p-2 bg-white bg-opacity-70 rounded-[3px] cursor-pointer absolute left-0 z-[10] block"
       >
-        <MdChevronLeft className="text-xl md:text-4xl" />
+        <HiOutlineChevronLeft className="text-xl md:text-4xl" />
       </span>
       <div className="px-8 md:px-16 overflow-hidden">
         <div
@@ -39,9 +39,9 @@ const Carousel = ({ children }) => {
       </div>
       <span
         onClick={scrollRight}
-        className="bg-opacity-70 bg-dark-blue text-white border-4 p-2 rounded-full cursor-pointer absolute right-0 z-[10] block"
+        className="border-2 border-btn-orange text-btn-orange p-2 bg-white bg-opacity-70 rounded-[3px] cursor-pointer absolute right-0 z-[10] block"
       >
-        <MdChevronRight className="text-xl md:text-4xl" />
+        <HiOutlineChevronRight className="text-xl md:text-4xl" />
       </span>
     </div>
   );
