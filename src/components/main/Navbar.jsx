@@ -22,19 +22,21 @@ function Navbar() {
   useEffect(() => {
     setUrl(location.pathname);
   });
-
+  console.log(url);
   const nav_routes_ui = nav_routes_array.map((ui, id) => {
     let path;
+  
     if (ui[1] !== "/") {
       path = "/" + ui[1];
-    } else {
+    }     
+    else {
       path = "/";
     }
 
     return (
       <Link
         style={
-          url === path
+          url === path 
             ? { fontWeight: "700", borderBottom: "2px solid white" }
             : {}
         }
