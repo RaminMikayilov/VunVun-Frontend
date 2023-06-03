@@ -29,32 +29,34 @@ function Navbar() {
     setUrl(location.pathname);
   });
 
-  // modal
+ // modal
 
-  const [isOpen, setIsOpen] = useState(false);
-  const modalRef = useRef();
-  const [logMode, setLogMode] = useState("login");
+ const [isOpen, setIsOpen] = useState(false);
+ const modalRef = useRef();
+ const [logMode, setLogMode] = useState("login");
 
-  const openModal = () => {
-    setIsOpen(true);
-  };
+ const openModal = () => {
+   setIsOpen(true);
+ };
 
-  const closeModal = () => {
-    setIsOpen(false);
-  };
+ const closeModal = () => {
+   setIsOpen(false);
+ };
 
   const nav_routes_ui = nav_routes_array.map((ui, id) => {
     let path;
+  
     if (ui[1] !== "/") {
       path = "/" + ui[1];
-    } else {
+    }     
+    else {
       path = "/";
     }
 
     return (
       <Link
         style={
-          url === path
+          url === path 
             ? { fontWeight: "700", borderBottom: "2px solid white" }
             : {}
         }
